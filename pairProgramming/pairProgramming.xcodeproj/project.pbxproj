@@ -14,7 +14,6 @@
 		DCB9829E248668CF00A3657A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB9829D248668CF00A3657A /* Preview Assets.xcassets */; };
 		DCB982A1248668CF00A3657A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB9829F248668CF00A3657A /* LaunchScreen.storyboard */; };
 		DCB982AC248668D000A3657A /* pairProgrammingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB982AB248668D000A3657A /* pairProgrammingTests.swift */; };
-		DCB982B7248668D000A3657A /* pairProgrammingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB982B6248668D000A3657A /* pairProgrammingUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +46,6 @@
 		DCB982AB248668D000A3657A /* pairProgrammingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pairProgrammingTests.swift; sourceTree = "<group>"; };
 		DCB982AD248668D000A3657A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCB982B2248668D000A3657A /* pairProgrammingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pairProgrammingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCB982B6248668D000A3657A /* pairProgrammingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pairProgrammingUITests.swift; sourceTree = "<group>"; };
-		DCB982B8248668D000A3657A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +78,6 @@
 			children = (
 				DCB98293248668CF00A3657A /* pairProgramming */,
 				DCB982AA248668CF00A3657A /* pairProgrammingTests */,
-				DCB982B5248668D000A3657A /* pairProgrammingUITests */,
 				DCB98292248668CF00A3657A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,15 +121,6 @@
 				DCB982AD248668D000A3657A /* Info.plist */,
 			);
 			path = pairProgrammingTests;
-			sourceTree = "<group>";
-		};
-		DCB982B5248668D000A3657A /* pairProgrammingUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DCB982B6248668D000A3657A /* pairProgrammingUITests.swift */,
-				DCB982B8248668D000A3657A /* Info.plist */,
-			);
-			path = pairProgrammingUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCB982B7248668D000A3657A /* pairProgrammingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
