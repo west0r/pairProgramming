@@ -8,6 +8,10 @@
 
 import Foundation
 
+struct PersonResponse: Codable {
+    let results: [Person]
+}
+
 struct Person: Codable {
     let name: String
     let height: String

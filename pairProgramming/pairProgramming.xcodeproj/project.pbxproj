@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		146745AE2486B4EB00ED64A7 /* PeopleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146745AD2486B4EB00ED64A7 /* PeopleService.swift */; };
 		DCB98295248668CF00A3657A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB98294248668CF00A3657A /* AppDelegate.swift */; };
 		DCB98297248668CF00A3657A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB98296248668CF00A3657A /* SceneDelegate.swift */; };
 		DCB98299248668CF00A3657A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB98298248668CF00A3657A /* ContentView.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		146745AD2486B4EB00ED64A7 /* PeopleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleService.swift; sourceTree = "<group>"; };
 		DCB98291248668CF00A3657A /* pairProgramming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pairProgramming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB98294248668CF00A3657A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCB98296248668CF00A3657A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		DCB98293248668CF00A3657A /* pairProgramming */ = {
 			isa = PBXGroup;
 			children = (
+				146745AD2486B4EB00ED64A7 /* PeopleService.swift */,
 				DCB98294248668CF00A3657A /* AppDelegate.swift */,
 				DCB98296248668CF00A3657A /* SceneDelegate.swift */,
 				DCB98298248668CF00A3657A /* ContentView.swift */,
@@ -218,6 +221,7 @@
 				DCB98297248668CF00A3657A /* SceneDelegate.swift in Sources */,
 				DCB982C52486B1D400A3657A /* Person.swift in Sources */,
 				DCB98299248668CF00A3657A /* ContentView.swift in Sources */,
+				146745AE2486B4EB00ED64A7 /* PeopleService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
