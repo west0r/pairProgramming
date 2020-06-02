@@ -14,17 +14,12 @@
 		DCB9829E248668CF00A3657A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB9829D248668CF00A3657A /* Preview Assets.xcassets */; };
 		DCB982A1248668CF00A3657A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB9829F248668CF00A3657A /* LaunchScreen.storyboard */; };
 		DCB982AC248668D000A3657A /* pairProgrammingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB982AB248668D000A3657A /* pairProgrammingTests.swift */; };
+		DCB982C52486B1D400A3657A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB982C42486B1D400A3657A /* Person.swift */; };
+		DCB982C72486B25100A3657A /* PersonServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB982C62486B25100A3657A /* PersonServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		DCB982A8248668CF00A3657A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DCB98289248668CF00A3657A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DCB98290248668CF00A3657A;
-			remoteInfo = pairProgramming;
-		};
-		DCB982B3248668D000A3657A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DCB98289248668CF00A3657A /* Project object */;
 			proxyType = 1;
@@ -45,7 +40,8 @@
 		DCB982A7248668CF00A3657A /* pairProgrammingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pairProgrammingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB982AB248668D000A3657A /* pairProgrammingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pairProgrammingTests.swift; sourceTree = "<group>"; };
 		DCB982AD248668D000A3657A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCB982B2248668D000A3657A /* pairProgrammingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pairProgrammingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB982C42486B1D400A3657A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		DCB982C62486B25100A3657A /* PersonServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,13 +53,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DCB982A4248668CF00A3657A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCB982AF248668D000A3657A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,7 +76,6 @@
 			children = (
 				DCB98291248668CF00A3657A /* pairProgramming.app */,
 				DCB982A7248668CF00A3657A /* pairProgrammingTests.xctest */,
-				DCB982B2248668D000A3657A /* pairProgrammingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +90,7 @@
 				DCB9829F248668CF00A3657A /* LaunchScreen.storyboard */,
 				DCB982A2248668CF00A3657A /* Info.plist */,
 				DCB9829C248668CF00A3657A /* Preview Content */,
+				DCB982C42486B1D400A3657A /* Person.swift */,
 			);
 			path = pairProgramming;
 			sourceTree = "<group>";
@@ -119,6 +108,7 @@
 			children = (
 				DCB982AB248668D000A3657A /* pairProgrammingTests.swift */,
 				DCB982AD248668D000A3657A /* Info.plist */,
+				DCB982C62486B25100A3657A /* PersonServiceTests.swift */,
 			);
 			path = pairProgrammingTests;
 			sourceTree = "<group>";
@@ -161,24 +151,6 @@
 			productReference = DCB982A7248668CF00A3657A /* pairProgrammingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DCB982B1248668D000A3657A /* pairProgrammingUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DCB982C1248668D000A3657A /* Build configuration list for PBXNativeTarget "pairProgrammingUITests" */;
-			buildPhases = (
-				DCB982AE248668D000A3657A /* Sources */,
-				DCB982AF248668D000A3657A /* Frameworks */,
-				DCB982B0248668D000A3657A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DCB982B4248668D000A3657A /* PBXTargetDependency */,
-			);
-			name = pairProgrammingUITests;
-			productName = pairProgrammingUITests;
-			productReference = DCB982B2248668D000A3657A /* pairProgrammingUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,10 +165,6 @@
 						CreatedOnToolsVersion = 11.5;
 					};
 					DCB982A6248668CF00A3657A = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = DCB98290248668CF00A3657A;
-					};
-					DCB982B1248668D000A3657A = {
 						CreatedOnToolsVersion = 11.5;
 						TestTargetID = DCB98290248668CF00A3657A;
 					};
@@ -217,7 +185,6 @@
 			targets = (
 				DCB98290248668CF00A3657A /* pairProgramming */,
 				DCB982A6248668CF00A3657A /* pairProgrammingTests */,
-				DCB982B1248668D000A3657A /* pairProgrammingUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,13 +207,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCB982B0248668D000A3657A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -256,6 +216,7 @@
 			files = (
 				DCB98295248668CF00A3657A /* AppDelegate.swift in Sources */,
 				DCB98297248668CF00A3657A /* SceneDelegate.swift in Sources */,
+				DCB982C52486B1D400A3657A /* Person.swift in Sources */,
 				DCB98299248668CF00A3657A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,13 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCB982AC248668D000A3657A /* pairProgrammingTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCB982AE248668D000A3657A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DCB982C72486B25100A3657A /* PersonServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +237,6 @@
 			isa = PBXTargetDependency;
 			target = DCB98290248668CF00A3657A /* pairProgramming */;
 			targetProxy = DCB982A8248668CF00A3657A /* PBXContainerItemProxy */;
-		};
-		DCB982B4248668D000A3657A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DCB98290248668CF00A3657A /* pairProgramming */;
-			targetProxy = DCB982B3248668D000A3657A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -496,44 +446,6 @@
 			};
 			name = Release;
 		};
-		DCB982C2248668D000A3657A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = pairProgrammingUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonfir.pairProgrammingUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = pairProgramming;
-			};
-			name = Debug;
-		};
-		DCB982C3248668D000A3657A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = pairProgrammingUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonfir.pairProgrammingUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = pairProgramming;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -560,15 +472,6 @@
 			buildConfigurations = (
 				DCB982BF248668D000A3657A /* Debug */,
 				DCB982C0248668D000A3657A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DCB982C1248668D000A3657A /* Build configuration list for PBXNativeTarget "pairProgrammingUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DCB982C2248668D000A3657A /* Debug */,
-				DCB982C3248668D000A3657A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
